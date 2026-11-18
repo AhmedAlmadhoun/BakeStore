@@ -56,3 +56,4 @@ RUN sed -i 's/Listen 80/Listen 10000/' /etc/apache2/ports.conf \
 EXPOSE 10000
 
 CMD ["apache2-foreground"]
+COPY docker/certs/ca.pem /etc/ssl/certs/aiven-ca.pem
