@@ -8,8 +8,7 @@ return [
 'allowed_origins' => [
     'http://localhost:5173',
     'http://127.0.0.1:5173',
-    'https://sitestore-rho.vercel.app',
-    'https://sitestore-r2nntme5n-ahmedwork891gmailcoms-projects.vercel.app',
+    'https://al-madhoun-store.vercel.app/',
 ],
     'allowed_origins_patterns' => [],
 
