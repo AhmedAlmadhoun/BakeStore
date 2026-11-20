@@ -5,12 +5,12 @@ return [
 
     'allowed_methods' => ['*'],
 
-'allowed_origins' => [
-    'http://localhost:5173',
-    'http://127.0.0.1:5173',
-    'https://al-madhoun-store.vercel.app/',
-    
-],
+    'allowed_origins' => [
+        'https://al-madhoun-store.vercel.app',
+        'https://sitestore-rho.vercel.app',
+        'http://localhost:5173',
+    ],
+
     'allowed_origins_patterns' => [],
 
     'allowed_headers' => ['*'],
